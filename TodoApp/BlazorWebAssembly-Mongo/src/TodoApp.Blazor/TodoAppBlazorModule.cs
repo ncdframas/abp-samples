@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TodoApp.Blazor.Menus;
-using Volo.Abp.AspNetCore.Components.Web.BasicTheme.Themes.Basic;
+using Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
 using Volo.Abp.Autofac.WebAssembly;
 using Volo.Abp.AutoMapper;
 using Volo.Abp.Modularity;
 using Volo.Abp.UI.Navigation;
-using Volo.Abp.AspNetCore.Components.WebAssembly.BasicTheme;
+using Volo.Abp.AspNetCore.Components.WebAssembly.LeptonXLiteTheme;
 using Volo.Abp.Identity.Blazor.WebAssembly;
 using Volo.Abp.SettingManagement.Blazor.WebAssembly;
 using Volo.Abp.TenantManagement.Blazor.WebAssembly;
@@ -23,7 +23,7 @@ namespace TodoApp.Blazor
     [DependsOn(
         typeof(AbpAutofacWebAssemblyModule),
         typeof(TodoAppHttpApiClientModule),
-        typeof(AbpAspNetCoreComponentsWebAssemblyBasicThemeModule),
+        typeof(AbpAspNetCoreComponentsWebAssemblyLeptonXLiteThemeModule),
         typeof(AbpIdentityBlazorWebAssemblyModule),
         typeof(AbpTenantManagementBlazorWebAssemblyModule),
         typeof(AbpSettingManagementBlazorWebAssemblyModule)
