@@ -6,6 +6,7 @@ using IdentityModel;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using OpenIddict.Abstractions;
 using TodoApp.Blazor.Menus;
 using Volo.Abp.AspNetCore.Components.Web.LeptonXLiteTheme.Themes.LeptonXLite;
 using Volo.Abp.AspNetCore.Components.Web.Theming.Routing;
@@ -72,9 +73,11 @@ namespace TodoApp.Blazor
             builder.Services.AddOidcAuthentication(options =>
             {
                 builder.Configuration.Bind("AuthServer", options.ProviderOptions);
-                options.UserOptions.RoleClaim = JwtClaimTypes.Role;
+                options.UserOptions.NameClaim = OpenIddictConstants.Claims.Name;
+                options.UserOptions.RoleClaim = OpenIddictConstants.Claims.Role;
+
                 options.ProviderOptions.DefaultScopes.Add("TodoApp");
-                options.ProviderOptions.DefaultScopes.Add("role");
+                options.ProviderOptions.DefaultScopes.Add("roles");
                 options.ProviderOptions.DefaultScopes.Add("email");
                 options.ProviderOptions.DefaultScopes.Add("phone");
             });

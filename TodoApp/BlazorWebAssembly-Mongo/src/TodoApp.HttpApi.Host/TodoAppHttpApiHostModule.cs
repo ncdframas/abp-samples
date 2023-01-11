@@ -45,20 +45,20 @@ namespace TodoApp
     )]
     public class TodoAppHttpApiHostModule : AbpModule
     {
-        
+
         public override void PreConfigureServices(ServiceConfigurationContext context)
         {
             PreConfigure<OpenIddictBuilder>(builder =>
             {
                 builder.AddValidation(options =>
                 {
-                    options.AddAudiences("TodoAppBM");
+                    options.AddAudiences("TodoApp");
                     options.UseLocalServer();
                     options.UseAspNetCore();
                 });
             });
         }
-        
+
         public override void ConfigureServices(ServiceConfigurationContext context)
         {
             var configuration = context.Services.GetConfiguration();
