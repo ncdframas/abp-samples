@@ -48,6 +48,7 @@
     <ProjectReference Include="..\ElsaDemo.Application\ElsaDemo.Application.csproj" />
     <ProjectReference Include="..\ElsaDemo.EntityFrameworkCore\ElsaDemo.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ElsaDemo.HttpApi\ElsaDemo.HttpApi.csproj" />
+<<<<<<< HEAD
     <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.Autofac" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.Swashbuckle" Version="7.2.2" />
@@ -57,6 +58,18 @@
     <PackageReference Include="Volo.Abp.Account.Web.IdentityServer" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.TenantManagement.Web" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.SettingManagement.Web" Version="7.2.2" />
+=======
+    <ProjectReference Include="..\ElsaDemo.EntityFrameworkCore.DbMigrations\ElsaDemo.EntityFrameworkCore.DbMigrations.csproj" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Autofac" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Swashbuckle" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Authentication.JwtBearer" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AspNetCore.Serilog" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Identity.Web" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Account.Web.IdentityServer" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Web" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Web" Version="4.3.2" />
+>>>>>>> parent of 408771ab (Bump ABP from 4.3.2 to 4.4.4)
   </ItemGroup>
 
 </Project>

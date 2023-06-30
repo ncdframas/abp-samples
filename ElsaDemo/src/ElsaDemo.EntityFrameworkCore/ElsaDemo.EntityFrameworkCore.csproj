@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ElsaDemo.Domain\ElsaDemo.Domain.csproj" />
+<<<<<<< HEAD
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="7.2.2" />
@@ -25,6 +26,17 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
       <PrivateAssets>compile; contentFiles; build; buildMultitargeting; buildTransitive; analyzers; native</PrivateAssets>
     </PackageReference>
+=======
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.Identity.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.IdentityServer.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.EntityFrameworkCore" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.EntityFrameworkCore" Version="4.3.2" />
+>>>>>>> parent of 408771ab (Bump ABP from 4.3.2 to 4.4.4)
   </ItemGroup>
 
 </Project>

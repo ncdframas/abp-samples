@@ -10,7 +10,11 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\ElsaDemo.EntityFrameworkCore\ElsaDemo.EntityFrameworkCore.csproj" />
     <ProjectReference Include="..\ElsaDemo.TestBase\ElsaDemo.TestBase.csproj" />
+<<<<<<< HEAD
     <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="7.2.2" />
+=======
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.Sqlite" Version="4.3.2" />
+>>>>>>> parent of 408771ab (Bump ABP from 4.3.2 to 4.4.4)
   </ItemGroup>
 
   <ItemGroup>

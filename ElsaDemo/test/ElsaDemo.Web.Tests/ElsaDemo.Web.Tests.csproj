@@ -18,7 +18,11 @@
     <PackageReference Include="HtmlAgilityPack" Version="1.11.32" />
     <ProjectReference Include="..\ElsaDemo.Application.Tests\ElsaDemo.Application.Tests.csproj" />
     <ProjectReference Include="..\..\src\ElsaDemo.Web\ElsaDemo.Web.csproj" />
+<<<<<<< HEAD
     <PackageReference Include="Volo.Abp.AspNetCore.TestBase" Version="7.2.2" />
+=======
+    <PackageReference Include="Volo.Abp.AspNetCore.TestBase" Version="4.3.2" />
+>>>>>>> parent of 408771ab (Bump ABP from 4.3.2 to 4.4.4)
   </ItemGroup>
 
   <ItemGroup>

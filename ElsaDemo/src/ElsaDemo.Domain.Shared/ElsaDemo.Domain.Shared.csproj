@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.IdentityServer.Domain.Shared" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="7.2.2" />
@@ -17,6 +18,16 @@
     <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="7.2.2" />
     <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="7.2.2" />
+=======
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.IdentityServer.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.BackgroundJobs.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.AuditLogging.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.TenantManagement.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.FeatureManagement.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.PermissionManagement.Domain.Shared" Version="4.3.2" />
+    <PackageReference Include="Volo.Abp.SettingManagement.Domain.Shared" Version="4.3.2" />
+>>>>>>> parent of 408771ab (Bump ABP from 4.3.2 to 4.4.4)
   </ItemGroup>
 
   <ItemGroup>
